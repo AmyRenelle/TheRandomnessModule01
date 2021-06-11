@@ -1,0 +1,30 @@
+---
+title: "Home"
+---
+
+Welcome to the **Randomness Module**.
+
+<hr>
+<p style="background-image: url('jonas-friese-pS_S00R9_6I-unsplash.jpg'); ; background-repeat: no-repeat; background-attachment: fixed;
+  background-size: cover; color: white ! important; text-align: center ! important;">
+A long time ago, a Wellington lake (Te Whanganui-a-Tara) was home to two taniwha, Ngake and Whātaitai. As the years went by, the taniwha outgrew their lake. So, they broke free! With a mighty roar and the crashing of rocks and earth, the taniwha smashed through the cliff, opening their lake out to the ocean (Te Moana o Raukawa - Cook Strait).
+<br>
+<br>
+Nowadays, their lake is called the Wellington Harbour.
+<br>
+<br>
+This is an example of how a random phenomenon - an earthquake - can become folklore, myths, and legends. We used to have a hard time understanding random events, often blaming God's wrath, sea monsters, or angels.</p>
+
+*We still have a lot of trouble understanding randomness today. And, while we know an earthquake is not caused by mighty taniwha, there are still many misconceptions around randomness.*
+
+<hr>
+
+This website explores randomness and some key facets that may contribute to randomness misconception. Headphones are recommended for some exercises and pair/group discussions are encouraged.
+
+Learn more about the <a href = ".\Findings.html" target="_blank">findings</a> from my research.
+
+<hr>
+
+<span style = "color: black; align: center; display:table; margin-left: auto; margin-right: auto">
+Hey, Teachers! Looking for some ideas on <a href = ".\Teachers.html" target = "blank">*how to use this module*</a>? </span>
+<br>

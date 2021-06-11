@@ -1,0 +1,29 @@
+---
+title: "Teachers' Corner"
+output:
+  html_document:
+    css: "styles.css"
+---
+
+Hello! This page contains a few additional resources that aim to inspire how you might use this module in your classroom. Feel free to adapt any suggestions to your class needs.
+
+<h2>Definitions</h2>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/iGc6arzHIoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+<br>
+
+<h2>Spatial Randomness</h2>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/vvcfloq8KaU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+<br>
+
+<h2>Waiting Times</h2>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/6_zhAPdi8Uk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<br>
+You can find more documentation on Scampy <a href = https://new.censusatschool.org.nz/wp-content/uploads/2019/09/scampy_documentation.pdf target = "_blank">here</a>.
+
+<br>
+
+<h2>Other Examples</h2>
+<p>This section of the Randomness Module provides additional examples, highlighting how randomness may be seen in everyday life, biology, chemistry, and physics. It is recommended that these are used to further explore randomness after considering the definition of randomness and it's relationship with distributions.</p>
+<br>

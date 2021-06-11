@@ -1,0 +1,26 @@
+---
+title: "The Many Definitions of Randomness"
+output:
+  html_document:
+    css: "styles.css"
+---
+There are many definitions of randomness - some good and some less ideal! In the [main module](.\definition1.html), we will be looking at the *no-pattern definition* and the *equiprobability* definition. Here, you will find a few other examples.
+
+As an exercise, we recommend discussing some of the pro's and con's to each of these definitions with your classmates. 
+
+*Which one do you prefer and why?*
+
+```{r, echo = FALSE, results = 'asis'}
+library('knitr')
+defs = matrix(data = c(
+"Equiprobability Definition", "Randomness is where each observation is equally likely to be selected.", "Batanero et al. (2016)", 
+"No-Pattern Definition", "Randomness is where a sequence lacks a discernible pattern.", "Gougis et al. (2017)",
+"Subjective Definition", "Randomness is dependent on a person's knowledge.",	"Batanero et al. (2016)",
+"Zero-Correlation Definition", "Randomness is where the correlation between pairs of adjacent observations is zero.", "Nickerson (2002)",
+"Algorithmic Definition",	"Randomness is where no algorithm can predict future observations of a sequence.", "Batanero et al. (2016)",
+"Compressibility Definition", "Randomness is where a sequence cannot be compressed or compacted into a shorter form.", "Chaitin (1975)",
+"Predictability Definition I", "Randomness is where the outcome cannot be predicted even though the probability of each observation is fixed.", "New Zealand Ministry of Education (2012)",
+"Predictability Definition II",	"Randomness is where it is impossible to predict when an observation will occur", "Bennett (2011)"), nrow = 8, ncol = 3, byrow = T)
+dimnames(defs) <- list(c(rep("", 8)), c("Definition Label", "Definition", 	"Reference"))
+kable(defs)
+```

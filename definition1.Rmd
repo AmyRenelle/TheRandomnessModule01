@@ -1,0 +1,113 @@
+---
+title: "Defining Randomness"
+---
+
+# {.tabset}
+## 1.1 Problem
+:::: {style="display: flex;"}
+
+::: {}
+```{r, echo=FALSE, out.extra='style= padding:10px;'}
+knitr::include_graphics("books2.jpg")
+```
+:::
+
+::: {}
+<p style="padding:10px">
+Defining randomness is easy... isn't it?!
+<br>
+When reading journal articles on randomness, many stress the difficulty of defining randomness, with numerous researchers recognising its lack of simplicity. As Batanero et al. (2016) stated, "[even] today, we find no simple definition that we can use unambiguously to classify a given event or process as being random or not" (pp. 34 – 35).</p>
+:::
+
+::::
+
+<p style="text-align: center;" !important>It seems randomness is not as easy to define as you might first think!</p>
+
+There are lots of <a href = ".\definition2.html" target="_blank">definitions of randomness</a>! It is a *lexically ambiguous* concept. Whether building on terms previously heard, discussing ideas with peers, or labelling experiences, language plays a vital role in understanding new concepts. The term random is homonymous – it holds more than one meaning or definition or use (Kaplan et al., 2009), which makes it hard to pin down a good definition!
+
+This section looks into some of the tricky bits of defining randomness.
+
+<h3>Learning Aims:</h3>
+<ol><li>Identify flaws in definitions that limit possible examples of randomness.</li>
+<li>Build a better definition of randomness, clarifying important aspects of random examples.</li>
+</ol>
+<br>
+
+## 1.2 Fix the Flaw {.tabset .tabset-pills}
+### Introduction
+There are two definitions in particular that can lead to a narrow view of randomness - the no-pattern definition and the equiprobability definition.
+
+<p style="background-image: url('fern.jpg'); ; background-repeat: no-repeat; background-attachment: fixed;
+  background-size: cover; color: white ! important; text-align: center ! important;"><b>Whānau Time!</b><br>In this section, <em>Defining Randomness</em>, we are learning about how randomness is talked about.<br>Ask your whānau about how they would define randomness, how randomness comes into stories (like the taniwha legend on the <em>Home</em> page), and the language used to talk about random events.</p>
+<br>
+
+### The No-Pattern Definition
+Let's start with the *no-pattern definition*:
+
+<span style = "color: black; align: center; text-align: center; display:table; margin-left: auto; margin-right: auto"> *"Randomness is where a sequence lacks a discernible pattern"* (Gougis et al., 2017). </span>
+
+<body>
+    <ul><li>Discussion time! Before moving on, talk in pairs or groups about the possible flaws with this definition. Can you think of examples when this definition wouldn't work?</li></ul>
+</body>
+
+<p>See some discussion <a href = https://vimeo.com/555573450 target = "_blank">examples</a>!</p>
+
+<br>
+<div class="interact_responsive_padding" style="padding:100% 0 0 0;position:relative;margin-bottom:5px;"><div class="interact_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe id="interactApp60a2d56c4284160017daa384" width="100%" height="100%" style="border:none;max-width:100%;margin:0;" allowTransparency="true" frameborder="0" src="https://quiz.tryinteract.com/#/60a2d56c4284160017daa384/q/1?method=iframe&mobile=1"></iframe></div></div>
+<br>
+If you're keen to know more, additional information can be found on the <a href = ".\Representativeness.html" target="_blank">representativeness heuristic</a> and <a href = ".\colloquial.html" target="_blank">colloquial uses</a> of the term "random".
+
+<br>
+
+### The Equiprobability Definition
+Now let's try the *equiprobability definition*:
+
+<span style = "color: black; align: center; display:table; margin-left: auto; margin-right: auto"> *"Randomness is where each observation is equally likely to be selected."* (Batanero et al., 2016). </span>
+
+<body>
+    <ul><li>Discussion time! Before moving on, talk in pairs or groups about the possible flaws with this definition. Can you think of examples when this definition wouldn't work?</li></ul>
+</body>
+
+<p>See some discussion <a href = https://vimeo.com/555566258 target = "_blank">examples</a>!</p>
+
+<div class="interact_responsive_padding" style="padding:100% 0 0 0;position:relative;margin-bottom:5px;"><div class="interact_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe id="interactApp60a2e12d4284160017daa3d8" width="100%" height="100%" style="border:none;max-width:100%;margin:0;" allowTransparency="true" frameborder="0" src="https://quiz.tryinteract.com/#/60a2e12d4284160017daa3d8/q/1?method=iframe&mobile=1"></iframe></div></div>  
+
+Not heard of *Pass the Pigs*? More info <a href = "https://passpigs.tripod.com/index.html" target="_blank">here</a>.
+
+<br>
+
+## 1.3 Craft a Definition
+In this section, we're going to take what you've learnt from section 1.2: *Fix the Flaw* and use it to make a new, even better definition!
+
+<body>
+    <ul><li>Discussion time! Before moving on, talk in pairs or groups about a possible definition. Then challenge each other to think of examples when this definition wouldn't work!</li></ul>
+</body>
+
+```{r echo=FALSE}
+library(sortable)
+library(htmltools)
+bucket_list(
+    header = "Drag options from the first two columns into the third and make a new definition!",
+    add_rank_list(
+      text = "First of all, drag one from here...",
+      labels = c("...where each observation...", "..where a sequence...")
+    ),
+    add_rank_list(
+      text = "...and as many as you like from here!",
+      labels = c("... is equally likely...", "...lacks a pattern...", "...cannot be predicted...", "...even though the probability of each observation is fixed...", "...depends on a person's knowledge...", "...cannot be compressed...", "...in the long run...", "...in the short run...", "...over all observations...")
+    ),
+    add_rank_list(
+      text = "Let's start you off: Randomness is...",
+      labels = NULL
+    )
+  )
+```
+
+<body>
+    <ul><li>Classroom activity! Write up your definitions and compare what you each got. Try and find one thing you like and one thing you think could be improved on for each definition.</li></ul>
+</body>
+<br>
+The Mathematics and Statistics Curriculum in New Zealand defines randomness as:
+<span style = "color: black; align: center; display:table; margin-left: auto; margin-right: auto"> *"Randomness is where the outcome cannot be predicted even though the probability of each observation is fixed."* (New Zealand Ministry of Education, 2012). </span>
+<br>
+

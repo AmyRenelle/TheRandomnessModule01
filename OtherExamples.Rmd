@@ -1,0 +1,492 @@
+---
+title: "Other Examples"
+---
+
+# {.tabset}
+## 3.1 Problem
+```{r echo=FALSE, warning=FALSE, message=FALSE, results='hide'}
+if(!require(tidyverse)) install.packages("tidyverse", repos = "http://cran.us.r-project.org")
+library("tidyverse")
+```
+You would likely come across randomness outside of the statistics classroom when learning about, for example, genetic drift or mutations (biology; Martin & Hine, 2008), radioactivity or lasers (physics; Daintith, 2009), dispersion (geology; Allaby, 2013), and diffusion (chemistry; Daintith, 2008), as well as when conducting research (Gougis et al, 2017). How these subjects consider randomness could contribute to our understanding of the concept. In particular, the use of randomness in subjects other than statistics demonstrates real-world examples where random phenomena may be encountered.
+
+Expanding on lexical ambiguity as a potential source of randomness misconceptions, it is feasible that a lack of consistency between school subjects could also be a potential source of randomness misconceptions.
+
+<h3>Learning Aims:</h3>
+<ol><li>Explore and discuss everyday examples using the previous skills attained in the definition and distribution sections.</li>
+<li>...</li>
+<li>Explore diffusion as an example of randomness in chemistry with connections to sample size and fluctuations about the mean.</li>
+<li>Consider how random events build into a distribution with a radioactive decay example.</li></ol>
+<br>
+
+## 3.2 Everyday Examples {.tabset .tabset-pills}
+<span style = "color: black; align: center; text-align: center !important; display:table; margin-left: auto; margin-right: auto">There are so many everyday examples of randomness - check out one (or many) that interest you from the options below!</span>
+
+<div id="coffee-shop" class="section level3">
+### Coffee Shop
+:::: {style="display: flex;"}
+
+::: {}
+<p>You are observing customers entering a coffee shop between 10 am and 11 am one day. You record how long it took for the door to open since the last customer entered. Every time the door opens, this counts as one "event" and we will assume only one person enters.</p>
+:::
+
+::: {}
+```{r, echo=FALSE, out.extra='style= padding:10px;'}
+knitr::include_graphics("cafe3.jpg")
+```
+:::
+
+::::
+
+<p>You obtain the following dot plot of waiting times:</p>
+<br>
+<center>
+```{r, echo=FALSE, out.extra='style= padding:10px;'}
+knitr::include_graphics("coffee.jpg")
+```
+</center>
+<br>
+<p>How could we represent this data in other ways?</p>
+<br>
+<table width="100%">
+<tr>
+<td align="left" valign="top">
+<center><iframe width="560" height="215" src="https://player.vimeo.com/video/555031767?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen></iframe></center>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<center><iframe width="560" height="265" src="https://player.vimeo.com/video/555032825?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen></iframe></center>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<center><iframe width="560" height="215" src="https://player.vimeo.com/video/555035531?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen></iframe></center>
+</td>
+</tr>
+</table>
+<br>
+<body>
+<ul style="color:gray !important;"><li>What did you like about each example?</li> 
+<li>What did you dislike?</li>
+<li>Did all of the examples represent the data?</li></ul>
+</body>
+
+Run a <a href = "https://www.stat.auckland.ac.nz/~wild/scampy/" target="_blank">simulation</a>!
+
+<body>
+<ul style="color:gray !important;"><li>What distribution will you use in Scampy?</li>
+<li>What will be the rate? (Use 1/mean, i.e., 1 event per "mean" minutes)</li>
+<li>What will you change the units to?</li>
+<li>What kind of distribution did it create?</li>
+<li>What time interval will you specify for the Distribution of Counts?</li>
+<li>Imagine what the fuzz might look like if we repeated the simulation many times. Do you think the distribution you used works well for this example?</li></ul>
+</body>
+<br>
+</div>
+
+<div id="roulette" class="section level3">
+### Roulette
+
+:::: {style="display: flex;"}
+
+::: {}
+
+<p>At a visit to the casino, a friend bets $20 on "black" at the roulette table. They did not consider what events had previously occurred before placing their bet, they just picked black and went for it!</p>
+
+<iframe id="interactApp60c302bc5196d7001709546d" width="800" height="300" style="border:none;max-width:100%;margin:0;" allowTransparency="true" frameborder="0" src="https://quiz.tryinteract.com/#/60c302bc5196d7001709546d/q/1?method=iframe"></iframe>
+
+:::
+
+:::{}
+<center>
+```{r, echo=FALSE, out.width="75%", out.extra='style= padding:10px;'}
+knitr::include_graphics("wheel2.jpg")
+```
+</center>
+:::
+
+::::
+<br>
+<p>Your other friend at the casino saw that the last five numbers to come up were all red. "It's a run of reds" they whisper to you, before placing a $20 bet on red.</p>
+
+<iframe id="interactApp60c3037b5196d70017095476" width="800" height="400" style="border:none;max-width:100%;margin:0;" allowTransparency="true" frameborder="0" src="https://quiz.tryinteract.com/#/60c3037b5196d70017095476/q/1?method=iframe"></iframe>
+<br>
+<p>A man sitting at the roulette table hands you a piece of paper. "Here are the last 30 numbers to come up..."</p>
+
+<center>
+```{r, echo=FALSE, out.extra='style= padding:10px;'}
+knitr::include_graphics("roulette.jpg")
+```
+</center>
+<br>
+<iframe id="interactApp60c303ed7285f10017d1396b" width="800" height="400" style="border:none;max-width:100%;margin:0;" allowTransparency="true" frameborder="0" src="https://quiz.tryinteract.com/#/60c303ed7285f10017d1396b/q/1?method=iframe"></iframe>
+<br>
+</div>
+
+<div id="earthquakes" class="section level3">
+### Earthquakes
+:::: {style="display: flex;"}
+
+::: {}
+<center>
+```{r, echo=FALSE, out.extra='style= padding:10px;'}
+knitr::include_graphics("quake2.jpeg")
+```
+</center>
+:::
+
+:::{}
+Geonet.org.nz identify around 20,000 earthquakes (rū) in New Zealand every year - although most are too small or too deep for most people to notice. Generally, we expect approximately 3 strong earthquakes every 2 years (magnitude 6.0-6.9) and 1 very strong earthquake every 4 years (magnitude 7.0-7.9).
+:::
+
+::::
+
+<p>The following is a plot of the earthquakes in New Zealand that were above magnitude 6.0:</p>
+<br>
+<center>
+```{r, echo=FALSE, out.width="75%", out.extra='style= padding:10px;'}
+knitr::include_graphics("20quakes.jpg")
+```
+</center>
+<br>
+<p>The following depicts the waiting times between earthquakes in New Zealand that were above magnitude 6.0:</p>
+<br>
+<center>
+```{r, echo=FALSE, out.width="75%", out.extra='style= padding:10px;'}
+knitr::include_graphics("DaysQuakes.jpg")
+```
+</center>
+<br>
+It has been over 700 days since New Zealand last recorded a magnitude 6.0+ earthquake.
+
+<ul style="color:gray !important;"><li>How long do you estimate it to be until the next magnitude 6.0+ earthquake occurs in New Zealand? (You may provide a range of days if you like)</li>
+<li>How confident are you with your estimate for how many days it might be until the next magnitude 6.0+ earthquake occurs in New Zealand?</li></ul>
+
+Let's explore some more!
+
+<body>
+<ul style="color:gray !important;"><li>Open up <a href = "https://www.stat.auckland.ac.nz/~wild/scampy/" target="_blank">Scampy</a> and head to the <em>Simulation</em> tab. Set the distribution to exponential and the rate as 0.25 (i.e. 1 very strong earthquake every 4 years). Set the units as "years". Run the simulation and, when you get to the Distribution of Counts, set an appropriate time interval (i.e., 1 year). </li>
+<li>What do you think? What was the smallest waiting time? What was the largest? How confident are you in your previous estimate now?</li></ul>
+</body>
+
+<p style="background-image: url('fern.jpg'); ; background-repeat: no-repeat; background-attachment: fixed;
+  background-size: cover; color: white ! important; text-align: center ! important;"><b>Whānau Time!</b><br>In this example, <em>Earthquakes</em>, we learnt about how earthquakes can be unpredictable. <br>Ask your whānau about their experiences with earthquakes. Do you know anyone who experienced the Christchurch earthquake in 2010?</p>
+  
+<br>
+</div>
+
+<div id="volcanos" class="section level3">
+### Volcanos
+<center>
+```{r, echo=FALSE, out.width="75%", out.extra='style= padding:10px;'}
+knitr::include_graphics("Naki.jpg")
+```
+</center>
+<p>Think about the occurrence of volcanic eruptions (hūnga). Suppose a particular volcano is thought to erupt once every 200 years. What might the occurrence of these eruptions look like over 2000 years?<br>On a piece of paper, draw a timeline from year 0 to year 2000 (I recommend making the line 20 centimetres long and adding 200 years every 2cm). Then add on your volcanic events!</p>
+
+<body>
+<ul style="color:gray !important;"><li>What did you first consider once your timeline was drawn?</li>
+<li>Did you calculate anything before placing the events?</li>
+<li>Did you need to work anything out?</li></ul>
+</body>
+
+<br>
+<p>In New Zealand, we have had four volcanic eruptions since 2000 - most recently in 2019.
+<br>
+This plot shows the occurrence of volcanic eruptions since 1845 (there have been 11).</p>
+
+<br>
+<center>
+```{r, echo=FALSE, out.extra='style= padding:10px;'}
+knitr::include_graphics("erupt.jpg")
+```
+</center>
+<br>
+The average waiting time between eruptions is 15.7 years. 
+
+Which of the following options depict the waiting times between volcanic eruptions in New Zealand?
+
+<table width="100%">
+<tr>
+<td align="left" valign="top" padding=10px>
+<center><iframe width="650" height="415" src="https://player.vimeo.com/video/557056993?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></center> 
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" padding=10px>
+<center><iframe width="650" height="415" src="https://player.vimeo.com/video/557057322?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen></iframe></center>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<center><iframe width="800" height="415" src="https://player.vimeo.com/video/557065796?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen></iframe></center>
+</td>
+</tr>
+</table>
+<br>
+<body>
+<ul><li>What do you think? What was the smallest waiting time? What was the largest?</li>
+<li>Which of the options was most intuitive?</li>
+<li>Which of the options made the waiting times most clear?</li>
+<li>Can you think of some pro's and con's for each option? What did you like or dislike about each one?</li></ul>
+</body>
+<br>
+<p style="background-image: url('fern.jpg'); ; background-repeat: no-repeat; background-attachment: fixed;
+  background-size: cover; color: white ! important; text-align: center ! important;"><b>Whānau Time!</b><br>In this example, <em>Volcanos</em>, we learnt about how volcanic eruptions can be unpredictable. <br>Ask your whānau about their experiences with volcanic eruptions. Do you know anyone who has seen a volcano erupting?</p>
+<br>
+</div>
+
+<div id="blinks" class="section level3">
+### Blinks
+<p>Think about someone blinking (kamo).</p>
+<body>
+<ul><li>Are blinks random? Can you predict when someone will blink? What might effect when someone blinks?</li></ul>
+</body>
+<center>
+```{r, echo=FALSE, fig.align = 'center', out.extra='style= padding:10px;'}
+knitr::include_graphics("Blinks.gif")
+```
+</center>
+<p>We are going to have a play with *video mode* using the <a href = "https://www.stat.auckland.ac.nz/~wild/scampy/" target="_blank">Scampy</a> tool.</p>
+
+<p>This part of the tool allows the user to upload a video of their choice. As we are thinking about blinking, you might like to download the following clip of Barack Obama giving one of his weekly presidential updates back in 2015. <a href = https://vimeo.com/557079720 target = "_blank">Download here</a>.</p>
+
+<p>Otherwise, you could find your own video on Youtube and copy/paste the link into Scampy.</p>
+
+<p>Then, once you have your video, hit play and click to record when someone blink (i.e. every time Obama blinks, hit the *click me!* button to record the event). Carry on through the Scampy tool and see what data you have collected!</p>
+<body>
+<ul><li>What kind of distribution do you think will best fit the sample of waiting times generated between each of the blinks you recorded?</li></ul>
+</body>
+<br>
+</div>
+
+<div id="heights" class="section level3">
+### Heights
+<center>
+```{r, echo=FALSE, out.width="75%", out.extra='style= padding:10px;'}
+knitr::include_graphics("tall2.jpg")
+```
+</center>
+<p>Think about the heights (tāroaroa) of 14-year-olds and what a random sample might look like.<br>
+In this class, the students are going to draw a random sample of 20 observations relating to heights. Below shows the distribution of heights of 1,000 14-year-old students:</p>
+<br>
+<center>
+```{r, echo=FALSE, out.extra='style= padding:10px;'}
+knitr::include_graphics("heights.jpg")
+```
+</center>
+<br>
+Which of the following samples best fits your expectation of what a sample of heights might look like?
+
+<table width="100%">
+<tr>
+<td align="left" valign="top" width="30%" padding=10px>
+```{r, echo=FALSE, out.extra='style= padding:10px;'}
+knitr::include_graphics("sample1.jpg")
+```
+</td>
+<td align="left" valign="top" width="30%" padding=10px>
+```{r, echo=FALSE, out.extra='style= padding:10px;'}
+knitr::include_graphics("sample2.jpg")
+```
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" width="30%">
+```{r, echo=FALSE, out.extra='style= padding:10px;'}
+knitr::include_graphics("sample3.jpg")
+```
+</td>
+<td align="left" valign="top" width="30%">
+```{r, echo=FALSE, out.extra='style= padding:10px;'}
+knitr::include_graphics("sample4.jpg")
+```
+</td>
+</tr>
+</table>
+
+<body>
+<ul style="color:gray !important;"><li>Which one of the samples from the heights example is least *random*?</li></ul>
+</body>
+
+<p>Have a go using <a href = https://new.censusatschool.org.nz/resource/using-data-cards/ target = "_blank">data cards</a> in your class! This is a great way of having a go at sampling and noticing the randomness present in each sample drawn. Can you predict what height will be drawn next?</p>
+<br>
+</div>
+
+## 3.3 Biology
+Coming soon!
+<center>
+```{r, echo=FALSE, out.width="75%", out.extra='style= padding:10px;'}
+knitr::include_graphics("Bio.jpg")
+```
+</center>
+
+## 3.4 Chemistry
+<p>Randomness is a key property the universe. As chemistry (mātai matū) examines the building blocks of the universe, we typically have to deal with this random behaviour. For example, particles are known to move randomly.
+<br>
+<br>
+One example of this is the movement of gas particles through a semi-permeable membrane. The movement from high to low concentration is not a one-step process - the gas particles continually move around, swapping which side of the membrane they are on. The movement from high to low concentration effects the degree of movement; thinking statistically, if there are more particles on one side of the membrane there will be more movement simply because there are more particles to move! </p>
+<center>
+```{r, echo=FALSE, out.width="25%", out.extra='style= padding:10px;'}
+knitr::include_graphics("chem.jpg")
+```
+</center>
+
+Let's visualise this!
+
+To be able to make this example visible, we will need to make some assumptions. Suppose we can observe 4 gas particles in a vacuum chamber set-up. These particles would be moving quickly and randomly. There would continually be a chance that a particular particle crosses the membrane. But, we would have difficulty visualising this! So, let's assume that we observe the particles during short intervals (2.5 seconds), during which time, each of the particles we are observing have a 50% chance of crossing the membrane.
+
+In the video, we watch the four gas molecules for 25 seconds. During this time, we watch them swap or stay 10 times. Even though the video has some short pauses between each short interval (of 2.5 seconds), this would not be the case in actuality - it is just a consequence of making the video!
+
+<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/558289736?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="ChemTest1-RM.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+We should explore the movement more carefully. In particular, remember how I said <em>"if there are more particles on one side of the membrane there will be more movement simply because there are more particles to move"</em>? This is what we will investigate in more detail.
+
+<p>You could do this activity at home or in class using coins and/or a computer.<br>
+Collect as many coins (uka) as you can! Let's start off with 10 coins and then add some more. Place 8 coins in one pile on the left and the last 2 coins in another pile of the right.<br>
+Flip all of the coins in the pile on the left. Place them into "move" and "stay" groups, where a coin is in the "move" group if it is a head and the "stay" group if it is a tail. These coins represent the gas molecules that "start" on the left side of the chemistry experiment set-up - there is a 50% chance they move to the right side and 50% chance they stay on the left side.</p>
+<body>
+<ul style="color:gray !important;"><li>How many coins in the left pile moved? How many stayed?</li></ul>
+</body>
+<p>Do the same with the coins on the right. You should end up with something that looks like this:</p>
+<center>
+```{r, echo=FALSE, out.width="25%", out.extra='style= padding:10px;'}
+knitr::include_graphics("chem01.jpeg")
+knitr::include_graphics("chem02.jpeg")
+```
+</center>
+
+In this example, 62.5% (5/8) moved from the left pile while 50% (2/4) moved from the right pile. After this move, we would have 7 coins in the right pile and 5 coins in the left pile. Relating back to our chemistry example, there was more movement to the side with less molecules!
+<br>
+<br>
+Now, find all the coins you can! Work out what 20% is for how many coins you have found (i.e. I found 40 coins so 20% is 8 coins) and put these in the pile on the right. The rest make a pile on the left. Repeat the steps of flipping the coins and organising them as "move" (heads) or "stay" (tails).
+
+You should end up with something that looks like this. Note, the coins do not hold any value in this example ($2 represents the same as 10c):
+
+<table>
+<tr>
+<td>Left Pile</td>
+<td>Right Pile</td>
+</tr>
+<tr>
+<td>
+```{r, echo=FALSE, out.width="50%", out.extra='style= padding:10px;'}
+knitr::include_graphics("left.jpeg")
+```
+</td>
+<td>
+```{r, echo=FALSE, out.width="45%", out.extra='style= padding:10px;'}
+knitr::include_graphics("right.jpeg")
+```
+</td>
+</tr>
+</table>
+
+This time, 53.125% (17/32) moved from the left pile while, just by chance, 50% (4/8) moved from the right pile. After this move, we would have 21 coins in the right pile and 19 coins in the left pile. Again, there was more movement to the side with less molecules!
+<br>
+<br>
+Okay, we know there are a lot more gas molecules in our chemistry experiment than what we can represent with coins! So, let's use some code to increase our sample size (n = number of molecules, in this case).
+
+```{r}
+#Set the number of molecules in each pile and specify our coin toss outcomes
+left = 800
+right = 200
+coin = c('heads: move', 'tails: stay')
+
+#Randomly sample (i.e., do the coin toss!) for each pile and show the first few outcomes (not all 1000!) along with the overall totals
+leftPile = sample(coin, size = left, replace = TRUE); head(leftPile); table(leftPile)
+rightPile = sample(coin, size = right, replace = TRUE); head(rightPile); table(rightPile)
+
+#Calculate the new number of molecules on the left and right
+newRight = length(which(leftPile == "heads: move")) + length(which(rightPile == "tails: stay")); newRight
+newLeft = length(which(leftPile == "tails: stay")) + length(which(rightPile == "heads: move")); newLeft
+```
+
+Even if both sides have a move/stay ratio of 50:50, more on one side means the exchange will be greater in one direction than the other (more movement from the larger side).
+<br>
+<br>
+Right, there is one more thing to check out! Often, in chemistry, we think of the movement from high concentration to low concentration across a semi-permeable membrane as being a one-step process. What we see if we run the above simulation 100 times, is a fluctuation around 50%. This fluctuation is more volatile for smaller sample sizes (i.e. few molecules overall). 
+
+<table>
+<tr>
+<td>
+```{r, echo=FALSE, out.width="100%", out.extra='style= padding:10px;'}
+knitr::include_graphics("Rplotn=10c.jpeg")
+```
+</td>
+<td>
+```{r, echo=FALSE, out.width="100%", out.extra='style= padding:10px;'}
+knitr::include_graphics("Rplotn=100c.jpeg")
+```
+</td>
+</tr>
+<tr>
+<td>
+```{r, echo=FALSE, out.width="100%", out.extra='style= padding:10px;'}
+knitr::include_graphics("Rplotn=1000c.jpeg")
+```
+</td>
+<td>
+```{r, echo=FALSE, out.width="100%", out.extra='style= padding:10px;'}
+knitr::include_graphics("Rplotn=10000c.jpeg")
+```
+</td>
+</tr>
+</table>
+
+So, as in the plots, the more molecules (or coins in the simulation), the more stable around 50% either side of the membrane (or in each pile for the simulation). If we have a lot of gas molecules, the balance of 50:50 is often quite quick -- but, that doesn't mean there isn't lots of random movement still! The gas molecules swap sides of the membrane continually and randomly.
+
+<br>
+
+## 3.5 Physics
+
+There are many examples in physics (mātai ahupūngao) where randomness plays a part. One such example is radioactive decay. Do you recall the waiting time Twitter examples in the Distributions tab? This is similar!
+
+<center>
+```{r, echo=FALSE, out.width="45%", out.extra='style= padding:10px;'}
+knitr::include_graphics("atom.jpg")
+```
+</center>
+
+Radioactive decay, also known as radioactivity, is where an unstable atom (such as uranium) loses energy through radiation. This is a random process but the decay rate is usually known.
+
+The trouble is, while we know the probability of this occurring, it is impossible to predict which atoms will do so! Sounds familiar, right? This fits to the New Zealand mathematics and statistics curriculum definition!
+
+<center>
+```{r, echo=FALSE, out.width="45%", out.extra='style= padding:10px;'}
+knitr::include_graphics("phys.jpg")
+```
+</center>
+
+So, let's say we have 50 atoms we are watching and the rate of decay is 0.167 atoms every hour. 
+
+In the first hour, how many atoms do you expect to decay?
+<br>
+[8.33 but, we can't have a third of an atom! So, let's say 8 or 9.]{.spoiler}
+
+Now, this is only in theory so let's simulate this!
+<br>
+<iframe id="interactApp60c310a47285f10017d1398a" width="800" height="800" style="border:none;max-width:100%;margin:0;" allowTransparency="true" frameborder="0" src="https://quiz.tryinteract.com/#/60c310a47285f10017d1398a/q/1?method=iframe"></iframe>
+<br>
+Let's give it a go!
+Here are the results of rolling 50 dice. Count how many are a 6.
+```{r echo = FALSE, message = FALSE, warning = FALSE}
+x = "6, 4, 4, 3, 5, 6, 6, 5, 3, 4, 3, 6, 5, 6, 2, 1, 6, 1, 4, 5, 2, 5, 4, 4, 1, 1, 2, 2, 6, 2, 3, 5, 2, 1, 4, 4, 5, 5, 5, 3, 2, 3, 5, 4, 1, 2, 1, 1, 1, 3"
+paste(x, collapse = ", ")
+```
+There are: [7! So, that means 7 atoms decayed in the first hour.]{.spoiler}
+<br>
+How many atoms are left? [43!]{.spoiler}
+<br>
+So, let's roll for the next hour!
+```{r echo = FALSE, message = FALSE, warning = FALSE}
+x = "1, 2, 1, 5, 3, 5, 1, 2, 2, 2, 6, 1, 2, 3, 2, 2, 2, 4, 6, 2, 4, 2, 5, 1, 1, 2, 5, 3, 6, 3, 6, 1, 4, 5, 2, 3, 5, 1, 3, 5, 3, 1, 6"
+paste(x, collapse = ", ")
+```
+<br>
+<p>How many atoms decayed this hour? [5!]{.spoiler}</p>
+<br>
+<p>We repeat this until there are no more atoms left! If everyone in your class did this activity and you combined your plots, we would get something that looks like this:</p>
+<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/553847417?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="ezgif.com-gif-maker.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<br>
