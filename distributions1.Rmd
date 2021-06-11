@@ -483,7 +483,7 @@ Now that we have looked at building distributions from random observations, we n
 
 <p>We will continue using the \@TheRealDonaldTrump tweets.</p>
 <center>
-<iframe id="interactApp60c2fae37285f10017d1394b" width="800" height="800" style="border:none;max-width:100%;margin:0;" allowTransparency="true" frameborder="0" src="https://quiz.tryinteract.com/#/60c2fae37285f10017d1394b/q/1?method=iframe"></iframe>
+<iframe id="interactApp60c2fae37285f10017d1394b" width="800" height="400" style="border:none;max-width:100%;margin:0;" allowTransparency="true" frameborder="0" src="https://quiz.tryinteract.com/#/60c2fae37285f10017d1394b/q/1?method=iframe"></iframe>
 </center>
 <p>For our sample, we want the probability of selecting any given observation to remain constant. To do this, we will sample with replacement, which means we put any observations we draw back in the pile for the chance to be drawn again. The following code will give us five random observations with replacement from the \@TheRealDonaldTrump waiting time data.</p>
 
