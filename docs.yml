@@ -21,7 +21,9 @@ navbar:
 output:
   html_document:
     highlight: textmate
+    theme: flatly
     include:
       after_body: footer.html
-    css: "styles.css"
+    css: styles.css
+    output_dir: docs
 ---
