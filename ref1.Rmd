@@ -1,0 +1,39 @@
+---
+title: "References"
+output:
+  html_document:
+    css: "styles.css"
+---
+<body>
+<ul style = "color: gray; font-family: "Gill Sans"; font-weight: 100;
+  font-size: 50% !important;">
+<li>Allaby, M. (2013). A Dictionary of Geology and Earth Sciences. <em>Oxford Reference</em>. <a href = https://www.oxfordreference.com/view/10.1093/acref/9780199653065.001.0001/acref-9780199653065 target="_blank"> Link.</a> </li>
+
+<li>Batanero, C., Chernoff, E. J., Engel, J., Lee, H. S., & Sánchez, E. (2016). Research on Teaching and Learning Probability. In <em>ICME-13 Topical Surveys</em>. (Research on Teaching and Learning Probability ed., pp. 1–33). Springer, Cham. <a href = https://doi.org/10.1007/978-3-319-31625-3_1 target="_blank"> Link.</a> </li>
+
+<li>Bennett, D. (2011). Defining Randomness. In P. S. Bandyopadhyay & M. R. Forster (Eds.), <em>Philosophy of Statistics</em> (First Edition, pp. 633–639). Elsevier B. V. <a href = https://doi.org/10.1016/B978-0-444-51862-0.50020-4 target="_blank"> Link.</a> </li>
+
+<li>Chaitin, G. J. (1975). Randomness and Mathematical Proof. <em>Scientific American, 232</em>(5), 47–52. <a href = https://doi.org/10.1038/scientificamerican0575-47 target="_blank"> Link.</a> </li>
+
+<li>Daintith, J. (2008). A Dictionary of Chemistry. <em>Oxford Reference</em>. <a href = https://www.oxfordreference.com/view/10.1093/acref/9780199204632.001.0001/acref-9780199204632 target="_blank"> Link.</a> </li>
+
+<li>Daintith, J. (2009). A Dictionary of Physics. <em>Oxford Reference</em>. <a href = https://www.oxfordreference.com/view/10.1093/acref/9780199233991.001.0001/acref-9780199233991 target="_blank"> Link.</a> </li>
+
+<li>Gougis, R. D., Stomberg, J. F., O’Hare, A. T., O’Reilly, C. M., Bader, N. E., Meixner, T., & Carey, C. C. (2016). Post-secondary Science Students’ Explanations of Randomness and Variation and Implications for Science Learning. <em>International Journal of Science and Mathematics Education, 15</em>(6), 1039–1056. <a href = https://doi.org/10.1007/s10763-016-9737-7 target="_blank"> Link.</a> </li>
+
+<li>Grace, W. (n.d.). Māori Myths, Legends and Contemporary Stories: Ngake and Whātaitai the taniwha of Wellington harbour. <em>Te Kete Purangi: Mātauranga Māori</em>. <a href = https://eng.mataurangamaori.tki.org.nz/Support-materials/Te-Reo-Maori/Maori-Myths-Legends-and-Contemporary-Stories/Ngake-and-Whataitai-the-taniwha-of-Wellington-harbour target="_blank"> Link.</a> </li>
+
+<li>Kaplan, J. J., Fisher, D. G., & Rogness, N. T. (2009). Lexical Ambiguity in Statistics: What do Students Know about the Words Association, Average, Confidence, Random and Spread? <em>Journal of Statistics Education, 17</em>(3), 1–20. <a href = https://doi.org/10.1080/10691898.2009.11889535 target="_blank"> Link.</a> </li>
+
+<li>Martin, E. and Hine, R. (2008). A Dictionary of Biology. <em>Oxford Reference</em>. <a href = https://www.oxfordreference.com/view/10.1093/acref/9780199204625.001.0001/acref-9780199204625 target="_blank"> Link.</a> </li>
+
+<li>New Zealand Ministry of Education. (2012). Randomness. In <em>Glossary of Statistics Terms for the New Zealand Mathematics and Statistics Curriculum</em>. <a href =  https://seniorsecondary.tki.org.nz/Mathematics-and-statistics/Glossary target="_blank"> Link.</a> </li>
+
+<li>Nickerson, R. S. (2002). The Production and Perception of Randomness. <em>Psychological Review, 109</em>(2), 330–357. <a href = https://doi.org/10.1037/0033-295x.109.2.330 target="_blank"> Link.</a> </li>
+
+<li>Packnett Cunningham, B. [\@MsPackyetti]. (2020, January 28). What’s the most random fact you know? I mean RANDOM random. [Tweet]. <em>Twitter</em>. <a href = https://twitter.com/MsPackyetti/status/1221992423905202176 target="_blank"> Link.</a> </li>
+
+<li>Tversky, A., & Kahneman, D. (1974). Judgment under Uncertainty: Heuristics and Biases. <em>Science, 185</em>(4157), 1124–1131. <a href = https://doi.org/10.1126/science.185.4157.1124 target="_blank"> Link.</a> </li>
+</ul>
+<br>
+</body>
