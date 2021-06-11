@@ -1,0 +1,24 @@
+---
+title: "Further Explanations"
+output:
+  html_document:
+    css: "styles.css"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+<br>
+<h2>The Poisson Distribution</h2>
+The Poisson distribution provides the *probability of a given number of events occurring in a fixed interval of time*. This is a discrete distribution - we can't have only half an event occurring! We also cannot have two occurrences of the phenomenon happening at exactly the same time or in exactly the same place.
+
+<h2>The Normal Distribution</h2>
+Normal distributions are symmetrical. This means that 50% of values are less than the mean and 50% are greater than the mean. There is more data in the middle of the distribution than in the tails. This is a continuous distribution.
+
+<h2>The Exponential Distribution</h2>
+This is related to the Poisson distribution - it is the probability distribution of the *time between events* in a Poisson process. The exponential distribution is often concerned with the amount of time until some specific event occurs and is a continuous distribution.
+
+<h2>The Uniform Distribution</h2>
+For the uniform distribution, every event is equally likely to occur. Not to be confused with a constant value, which would always produce the same value. The uniform distribution has events with the same probability of occurring. It can be a continuous or discrete distribution.
+
+<br>

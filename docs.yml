@@ -1,0 +1,27 @@
+---
+title: "Randomness01"
+
+navbar:
+  title: "Randomness"
+  type: inverse
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "Defining Randomness"
+      icon: fa-book
+      href: definition1.html
+    - text: "Randomness & Distributions"
+      icon: fa-chart-bar
+      href: distributions1.html
+    - text: "Other Examples"
+      icon: fa-dna
+      href: OtherExamples.html
+
+output:
+  html_document:
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: styles.css
+---
