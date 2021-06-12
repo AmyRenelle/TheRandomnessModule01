@@ -15,10 +15,12 @@ Yes! Randomness is fundamental for numerous other concepts, such as independence
 The connection between random phenomena and structured distributions appears to be rarely taught but is essential to how everyday events can be expressed statistically. This is just one example of how randomness misconceptions could affect understanding in other areas in statistics.
 
 <h3>Learning Aims:</h3>
+<div style="border: medium dotted #FFEDB1;">
 <ol><li>Consider how random events might be expressed over an area using knowledge of distributions.</li>
 <li>Explore the relationship between small samples, large samples, and distributions.</li>
 <li>Consider how randomness can effect waiting times and build into different distributions.</li>
 <li>Recognise the process of random sampling from distributions.</li></ol>
+</div>
 <br>
 
 ## 2.2 Spatial Randomness {.tabset .tabset-pills}

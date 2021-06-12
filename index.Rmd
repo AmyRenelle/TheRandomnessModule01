@@ -25,6 +25,12 @@ This is an example of how a random phenomenon - an earthquake - can become folkl
 
 This website explores randomness and some key facets that may contribute to randomness misconception. Headphones are recommended for some exercises and pair/group discussions are encouraged.
 
+<br>
+<div style="border: medium dotted #FFEDB1;">
+In this module, you find activities on identifying flaws in definitions of randomness before creating a definition yourself; Explorations of spatial randomness, samples and distributions, waiting times, and random sampling; And exercises investigating examples from everyday, chemistry, biology, and physics contexts.
+</div>
+
+<br>
 Learn more about the <a href = ".\Findings.html" target="_blank">findings</a> from my research.
 
 <hr>

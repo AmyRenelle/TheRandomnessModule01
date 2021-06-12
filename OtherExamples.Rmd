@@ -13,10 +13,12 @@ You would likely come across randomness outside of the statistics classroom when
 Expanding on lexical ambiguity as a potential source of randomness misconceptions, it is feasible that a lack of consistency between school subjects could also be a potential source of randomness misconceptions.
 
 <h3>Learning Aims:</h3>
+<div style="border: medium dotted #FFEDB1;">
 <ol><li>Explore and discuss everyday examples using the previous skills attained in the definition and distribution sections.</li>
 <li>...</li>
 <li>Explore diffusion as an example of randomness in chemistry with connections to sample size and fluctuations about the mean.</li>
 <li>Consider how random events build into a distribution with a radioactive decay example.</li></ol>
+</div>
 <br>
 
 ## 3.2 Everyday Examples {.tabset .tabset-pills}

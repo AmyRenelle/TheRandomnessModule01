@@ -28,9 +28,11 @@ There are lots of <a href = ".\definition2.html" target="_blank">definitions of 
 This section looks into some of the tricky bits of defining randomness.
 
 <h3>Learning Aims:</h3>
+<div style="border: medium dotted #FFEDB1;">
 <ol><li>Identify flaws in definitions that limit possible examples of randomness.</li>
 <li>Build a better definition of randomness, clarifying important aspects of random examples.</li>
 </ol>
+</div>
 <br>
 
 ## 1.2 Fix the Flaw {.tabset .tabset-pills}

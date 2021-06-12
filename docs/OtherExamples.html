@@ -297,6 +297,7 @@ $(document).ready(function () {
 <h3>
 Learning Aims:
 </h3>
+<div style="border: medium dotted #FFEDB1;">
 <ol>
 <li>
 Explore and discuss everyday examples using the previous skills attained in the definition and distribution sections.
@@ -311,6 +312,7 @@ Explore diffusion as an example of randomness in chemistry with connections to s
 Consider how random events build into a distribution with a radioactive decay example.
 </li>
 </ol>
+</div>
 <p><br></p>
 </div>
 <div id="everyday-examples" class="section level2 tabset tabset-pills">
@@ -718,22 +720,22 @@ coin = c(&#39;heads: move&#39;, &#39;tails: stay&#39;)
 
 #Randomly sample (i.e., do the coin toss!) for each pile and show the first few outcomes (not all 1000!) along with the overall totals
 leftPile = sample(coin, size = left, replace = TRUE); head(leftPile); table(leftPile)</code></pre>
-<pre><code>## [1] &quot;tails: stay&quot; &quot;heads: move&quot; &quot;heads: move&quot; &quot;heads: move&quot; &quot;heads: move&quot;
+<pre><code>## [1] &quot;tails: stay&quot; &quot;tails: stay&quot; &quot;heads: move&quot; &quot;tails: stay&quot; &quot;heads: move&quot;
 ## [6] &quot;heads: move&quot;</code></pre>
 <pre><code>## leftPile
 ## heads: move tails: stay 
-##         386         414</code></pre>
+##         412         388</code></pre>
 <pre class="r"><code>rightPile = sample(coin, size = right, replace = TRUE); head(rightPile); table(rightPile)</code></pre>
-<pre><code>## [1] &quot;heads: move&quot; &quot;tails: stay&quot; &quot;tails: stay&quot; &quot;heads: move&quot; &quot;tails: stay&quot;
-## [6] &quot;heads: move&quot;</code></pre>
+<pre><code>## [1] &quot;heads: move&quot; &quot;tails: stay&quot; &quot;heads: move&quot; &quot;tails: stay&quot; &quot;heads: move&quot;
+## [6] &quot;tails: stay&quot;</code></pre>
 <pre><code>## rightPile
 ## heads: move tails: stay 
-##         109          91</code></pre>
+##         126          74</code></pre>
 <pre class="r"><code>#Calculate the new number of molecules on the left and right
 newRight = length(which(leftPile == &quot;heads: move&quot;)) + length(which(rightPile == &quot;tails: stay&quot;)); newRight</code></pre>
-<pre><code>## [1] 477</code></pre>
+<pre><code>## [1] 486</code></pre>
 <pre class="r"><code>newLeft = length(which(leftPile == &quot;tails: stay&quot;)) + length(which(rightPile == &quot;heads: move&quot;)); newLeft</code></pre>
-<pre><code>## [1] 523</code></pre>
+<pre><code>## [1] 514</code></pre>
 <p>Even if both sides have a move/stay ratio of 50:50, more on one side means the exchange will be greater in one direction than the other (more movement from the larger side). <br> <br> Right, there is one more thing to check out! Often, in chemistry, we think of the movement from high concentration to low concentration across a semi-permeable membrane as being a one-step process. What we see if we run the above simulation 100 times, is a fluctuation around 50%. This fluctuation is more volatile for smaller sample sizes (i.e. few molecules overall).</p>
 <table>
 <tr>
