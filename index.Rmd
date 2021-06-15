@@ -6,24 +6,18 @@ output:
     css: "styles.css"
 ---
 
-Welcome to the **Randomness Module**.
-
+<p>Welcome to the **Randomness Module**.</p>
 <hr>
+<p>This website explores randomness and some key facets that may contribute to randomness misconception. Headphones are recommended for some exercises and pair/group discussions are encouraged.</p>
+
 <p style="background-image: url('jonas-friese-pS_S00R9_6I-unsplash.jpg'); ; background-repeat: no-repeat; background-attachment: fixed;
   background-size: cover; color: white ! important; text-align: center ! important;">
-A long time ago, a Wellington lake (Te Whanganui-a-Tara) was home to two taniwha, Ngake and Whātaitai. As the years went by, the taniwha outgrew their lake. So, they broke free! With a mighty roar and the crashing of rocks and earth, the taniwha smashed through the cliff, opening their lake out to the ocean (Te Moana o Raukawa - Cook Strait).
-<br>
-<br>
-Nowadays, their lake is called the Wellington Harbour.
-<br>
-<br>
-This is an example of how a random phenomenon - an earthquake - can become folklore, myths, and legends. We used to have a hard time understanding random events, often blaming God's wrath, sea monsters, or angels.</p>
+In Ancient Greece, thunderstorms were sometimes thought to be the Gods expressing their anger. Underwater volcanic activity could create pockets of air that would sink pirate ships but be explained as the wrath of the kraken. Elsewhere, earthquakes would sometimes be explained by terrifying monsters causing havok.
+Historically, people would attribute more tangible things to random events to help them explain their experiences. Maybe, there are examples of this in your culture? Talk with your peers and whanau about possible connections between random phenomenon and folklore, myths, and legends.</p>
 
-*We still have a lot of trouble understanding randomness today. And, while we know an earthquake is not caused by mighty taniwha, there are still many misconceptions around randomness.*
+*We still have a lot of trouble understanding randomness today. And, while we tend to have a better understanding of the events we experience, there are still many misconceptions around randomness.*
 
 <hr>
-
-This website explores randomness and some key facets that may contribute to randomness misconception. Headphones are recommended for some exercises and pair/group discussions are encouraged.
 
 <br>
 <div style="border: medium dotted #FFEDB1;">
