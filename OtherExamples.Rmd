@@ -317,12 +317,8 @@ knitr::include_graphics("sample4.jpg")
 </div>
 
 ## 3.3 Biology
-Coming soon!
-<center>
-```{r, echo=FALSE, out.width="75%", out.extra='style= padding:10px;'}
-knitr::include_graphics("Bio.jpg")
-```
-</center>
+
+
 
 ## 3.4 Chemistry
 <p>Randomness is a key property the universe. As chemistry (mātai matū) examines the building blocks of the universe, we typically have to deal with this random behaviour. For example, particles are known to move randomly.
