@@ -13,12 +13,10 @@ You would likely come across randomness outside of the statistics classroom when
 Expanding on lexical ambiguity as a potential source of randomness misconceptions, it is feasible that a lack of consistency between school subjects could also be a potential source of randomness misconceptions.
 
 <h3>Learning Aims:</h3>
-<div style="border: medium dotted #FFEDB1;">
 <ol><li>Explore and discuss everyday examples using the previous skills attained in the definition and distribution sections.</li>
-<li>...</li>
+<li>Investigate the genetic randomness of Huntington's Disease.</li>
 <li>Explore diffusion as an example of randomness in chemistry with connections to sample size and fluctuations about the mean.</li>
 <li>Consider how random events build into a distribution with a radioactive decay example.</li></ol>
-</div>
 <br>
 
 ## 3.2 Everyday Examples {.tabset .tabset-pills}
@@ -317,8 +315,33 @@ knitr::include_graphics("sample4.jpg")
 </div>
 
 ## 3.3 Biology
+<p>Randomness can occur in biological systems. In biology (mātauranga koiora), you might encounter randomness when exploring mutations or cell division, among other areas.
+<center>
+```{r, echo=FALSE, out.width="35%", out.extra='style= padding:5px;'}
+knitr::include_graphics("Bio.jpg")
+```
+</center>
+<p>One example of a randomness in biology can be seen in Huntington’s disease. This rare disease is caused by an error in DNA, a defect in a single gene. The disease causes nerve cells in the brain to break down, affecting the patient's movement, cognition, and psychiatric health. Huntington's disease has what is known as an "autosomal dominant inheritance pattern". This means if you have just one copy of this gene, you would likely be affected by the disease.</p>
 
+<p>You inherit two copies of genes from your parents (one from each). This means that if one of your parents has Huntington's, there is a 50% chance that each of their children inherits the disease. In the table, below, H is the Huntington's Disease gene (with h as a normal gene) and we can see that the output of the punnet square results in a 50% chance of the child inheriting the disease.</p>
+<center>
+```{r, echo=FALSE, out.width="45%", out.extra='style= padding:10px;'}
+knitr::include_graphics("table1.jpg")
+```
+</center>
+<p>We are going to explore the randomness involved in this.
+<br>
+Consider the following pedigree tree for your friend, Sarah. 
+We can see that Granny Salt had Huntington's disease and this was passed onto one of her children. Aunty Sally did not get the Huntington's gene but Sarah's dad, Scott, did. Sarah is the youngest of her siblings and does not know if she has the disease or not. Her family know that both of Sarah's older brothers have Huntington's but her sister does not.</p>
 
+<center>
+```{r, echo=FALSE, out.width="100%", out.extra='style= padding:10px;'}
+knitr::include_graphics("tree2.jpg")
+```
+</center>
+<center>
+<iframe id="interactApp60cc19bbc58ba50017e72e88" width="800" height="800" style="border:none;max-width:100%;margin:0;" allowTransparency="true" frameborder="0" src="https://quiz.tryinteract.com/#/60cc19bbc58ba50017e72e88/q/1?method=iframe"></iframe></center>
+<br>
 
 ## 3.4 Chemistry
 <p>Randomness is a key property the universe. As chemistry (mātai matū) examines the building blocks of the universe, we typically have to deal with this random behaviour. For example, particles are known to move randomly.

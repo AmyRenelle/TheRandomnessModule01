@@ -297,13 +297,12 @@ $(document).ready(function () {
 <h3>
 Learning Aims:
 </h3>
-<div style="border: medium dotted #FFEDB1;">
 <ol>
 <li>
 Explore and discuss everyday examples using the previous skills attained in the definition and distribution sections.
 </li>
 <li>
-…
+Investigate the genetic randomness of Huntington’s Disease.
 </li>
 <li>
 Explore diffusion as an example of randomness in chemistry with connections to sample size and fluctuations about the mean.
@@ -312,7 +311,6 @@ Explore diffusion as an example of randomness in chemistry with connections to s
 Consider how random events build into a distribution with a radioactive decay example.
 </li>
 </ol>
-</div>
 <p><br></p>
 </div>
 <div id="everyday-examples" class="section level2 tabset tabset-pills">
@@ -654,10 +652,31 @@ Have a go using <a href = https://new.censusatschool.org.nz/resource/using-data-
 </div>
 <div id="biology" class="section level2">
 <h2>3.3 Biology</h2>
-Coming soon!
+<p>
+Randomness can occur in biological systems. In biology (mātauranga koiora), you might encounter randomness when exploring mutations or cell division, among other areas.
 <center>
-<img src="Bio.jpg" width="75%" style= padding:10px; />
+<img src="Bio.jpg" width="35%" style= padding:5px; />
 </center>
+<p>
+One example of a randomness in biology can be seen in Huntington’s disease. This rare disease is caused by an error in DNA, a defect in a single gene. The disease causes nerve cells in the brain to break down, affecting the patient’s movement, cognition, and psychiatric health. Huntington’s disease has what is known as an “autosomal dominant inheritance pattern”. This means if you have just one copy of this gene, you would likely be affected by the disease.
+</p>
+<p>
+You inherit two copies of genes from your parents (one from each). This means that if one of your parents has Huntington’s, there is a 50% chance that each of their children inherits the disease. In the table, below, H is the Huntington’s Disease gene (with h as a normal gene) and we can see that the output of the punnet square results in a 50% chance of the child inheriting the disease.
+</p>
+<center>
+<img src="table1.jpg" width="45%" style= padding:10px; />
+</center>
+<p>
+We are going to explore the randomness involved in this. <br> Consider the following pedigree tree for your friend, Sarah. We can see that Granny Salt had Huntington’s disease and this was passed onto one of her children. Aunty Sally did not get the Huntington’s gene but Sarah’s dad, Scott, did. Sarah is the youngest of her siblings and does not know if she has the disease or not. Her family know that both of Sarah’s older brothers have Huntington’s but her sister does not.
+</p>
+<center>
+<img src="tree2.jpg" width="100%" style= padding:10px; />
+</center>
+<center>
+<iframe id="interactApp60cc19bbc58ba50017e72e88" width="800" height="800" style="border:none;max-width:100%;margin:0;" allowTransparency="true" frameborder="0" src="https://quiz.tryinteract.com/#/60cc19bbc58ba50017e72e88/q/1?method=iframe">
+</iframe>
+</center>
+<p><br></p>
 </div>
 <div id="chemistry" class="section level2">
 <h2>3.4 Chemistry</h2>
@@ -720,22 +739,22 @@ coin = c(&#39;heads: move&#39;, &#39;tails: stay&#39;)
 
 #Randomly sample (i.e., do the coin toss!) for each pile and show the first few outcomes (not all 1000!) along with the overall totals
 leftPile = sample(coin, size = left, replace = TRUE); head(leftPile); table(leftPile)</code></pre>
-<pre><code>## [1] &quot;tails: stay&quot; &quot;tails: stay&quot; &quot;heads: move&quot; &quot;tails: stay&quot; &quot;heads: move&quot;
+<pre><code>## [1] &quot;tails: stay&quot; &quot;heads: move&quot; &quot;heads: move&quot; &quot;tails: stay&quot; &quot;heads: move&quot;
 ## [6] &quot;heads: move&quot;</code></pre>
 <pre><code>## leftPile
 ## heads: move tails: stay 
-##         412         388</code></pre>
+##         364         436</code></pre>
 <pre class="r"><code>rightPile = sample(coin, size = right, replace = TRUE); head(rightPile); table(rightPile)</code></pre>
-<pre><code>## [1] &quot;heads: move&quot; &quot;tails: stay&quot; &quot;heads: move&quot; &quot;tails: stay&quot; &quot;heads: move&quot;
+<pre><code>## [1] &quot;tails: stay&quot; &quot;heads: move&quot; &quot;tails: stay&quot; &quot;tails: stay&quot; &quot;tails: stay&quot;
 ## [6] &quot;tails: stay&quot;</code></pre>
 <pre><code>## rightPile
 ## heads: move tails: stay 
-##         126          74</code></pre>
+##         101          99</code></pre>
 <pre class="r"><code>#Calculate the new number of molecules on the left and right
 newRight = length(which(leftPile == &quot;heads: move&quot;)) + length(which(rightPile == &quot;tails: stay&quot;)); newRight</code></pre>
-<pre><code>## [1] 486</code></pre>
+<pre><code>## [1] 463</code></pre>
 <pre class="r"><code>newLeft = length(which(leftPile == &quot;tails: stay&quot;)) + length(which(rightPile == &quot;heads: move&quot;)); newLeft</code></pre>
-<pre><code>## [1] 514</code></pre>
+<pre><code>## [1] 537</code></pre>
 <p>Even if both sides have a move/stay ratio of 50:50, more on one side means the exchange will be greater in one direction than the other (more movement from the larger side). <br> <br> Right, there is one more thing to check out! Often, in chemistry, we think of the movement from high concentration to low concentration across a semi-permeable membrane as being a one-step process. What we see if we run the above simulation 100 times, is a fluctuation around 50%. This fluctuation is more volatile for smaller sample sizes (i.e. few molecules overall).</p>
 <table>
 <tr>
