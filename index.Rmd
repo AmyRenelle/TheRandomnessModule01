@@ -21,7 +21,7 @@ Historically, people would attribute more tangible things to random events to he
 
 <br>
 <div style="border: medium dotted #FFEDB1;">
-In this module, you find activities on identifying flaws in definitions of randomness before creating a definition yourself; Explorations of spatial randomness, samples and distributions, waiting times, and random sampling; And exercises investigating examples from everyday, chemistry, biology, and physics contexts.
+In this module, you will find activities on identifying flaws in definitions of randomness before creating a definition yourself; Explorations of spatial randomness, samples and distributions, waiting times, and random sampling; And exercises investigating examples from everyday, chemistry, biology, and physics contexts.
 </div>
 
 <br>
