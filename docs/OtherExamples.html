@@ -13,6 +13,7 @@
 
 <title>Other Examples</title>
 
+<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
@@ -245,28 +246,28 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fas fa-home"></span>
+    <span class="fa fa-home"></span>
      
     Home
   </a>
 </li>
 <li>
   <a href="definition1.html">
-    <span class="fas fa-book"></span>
+    <span class="fa fa-book"></span>
      
     Defining Randomness
   </a>
 </li>
 <li>
   <a href="distributions1.html">
-    <span class="fas fa-chart-bar"></span>
+    <span class="fa fa-chart-bar"></span>
      
     Randomness &amp; Distributions
   </a>
 </li>
 <li>
   <a href="OtherExamples.html">
-    <span class="fas fa-dna"></span>
+    <span class="fa fa-dna"></span>
      
     Other Examples
   </a>
@@ -289,7 +290,7 @@ $(document).ready(function () {
 
 
 <div id="section" class="section level1 tabset">
-<h1></h1>
+<h1 class="tabset"></h1>
 <div id="problem" class="section level2">
 <h2>3.1 Problem</h2>
 <p>You would likely come across randomness outside of the statistics classroom when learning about, for example, genetic drift or mutations (biology; Martin &amp; Hine, 2008), radioactivity or lasers (physics; Daintith, 2009), dispersion (geology; Allaby, 2013), and diffusion (chemistry; Daintith, 2008), as well as when conducting research (Gougis et al, 2017). How these subjects consider randomness could contribute to our understanding of the concept. In particular, the use of randomness in subjects other than statistics demonstrates real-world examples where random phenomena may be encountered.</p>
@@ -314,10 +315,10 @@ Consider how random events build into a distribution with a radioactive decay ex
 <p><br></p>
 </div>
 <div id="everyday-examples" class="section level2 tabset tabset-pills">
-<h2>3.2 Everyday Examples</h2>
+<h2 class="tabset tabset-pills">3.2 Everyday Examples</h2>
 <p><span style="color: black; align: center; text-align: center !important; display:table; margin-left: auto; margin-right: auto">There are so many everyday examples of randomness - check out one (or many) that interest you from the options below!</span></p>
 <div id="coffee-shop" class="section level3">
-<h3 id="coffee-shop">Coffee Shop</h3>
+<h3>Coffee Shop</h3>
 <div style="display: flex;">
 <div>
 <p>
@@ -406,7 +407,7 @@ Imagine what the fuzz might look like if we repeated the simulation many times. 
 <p><br></p>
 </div>
 <div id="roulette" class="section level3">
-<h3 id="roulette">Roulette</h3>
+<h3>Roulette</h3>
 <div style="display: flex;">
 <div>
 <p>
@@ -437,7 +438,7 @@ A man sitting at the roulette table hands you a piece of paper. “Here are the 
 <p><br> <iframe id="interactApp60c303ed7285f10017d1396b" width="800" height="400" style="border:none;max-width:100%;margin:0;" allowTransparency="true" frameborder="0" src="https://quiz.tryinteract.com/#/60c303ed7285f10017d1396b/q/1?method=iframe"></iframe> <br></p>
 </div>
 <div id="earthquakes" class="section level3">
-<h3 id="earthquakes">Earthquakes</h3>
+<h3>Earthquakes</h3>
 <div style="display: flex;">
 <div>
 <center>
@@ -483,14 +484,14 @@ What do you think? What was the smallest waiting time? What was the largest? How
 </li>
 </ul>
 </body>
-<p style="background-image: url('fern.jpg'); ; background-repeat: no-repeat; background-attachment: fixed;
+<p style="background-image: url(&#39;fern.jpg&#39;); ; background-repeat: no-repeat; background-attachment: fixed;
   background-size: cover; color: white ! important; text-align: center ! important;">
 <b>Whānau Time!</b><br>In this example, <em>Earthquakes</em>, we learnt about how earthquakes can be unpredictable. <br>Ask your whānau about their experiences with earthquakes. Do you know anyone who experienced the Christchurch earthquake in 2010?
 </p>
 <p><br></p>
 </div>
 <div id="volcanos" class="section level3">
-<h3 id="volcanos">Volcanos</h3>
+<h3>Volcanos</h3>
 <center>
 <img src="Naki.jpg" width="75%" style= padding:10px; />
 </center>
@@ -564,14 +565,14 @@ Can you think of some pro’s and con’s for each option? What did you like or 
 </ul>
 </body>
 <br>
-<p style="background-image: url('fern.jpg'); ; background-repeat: no-repeat; background-attachment: fixed;
+<p style="background-image: url(&#39;fern.jpg&#39;); ; background-repeat: no-repeat; background-attachment: fixed;
   background-size: cover; color: white ! important; text-align: center ! important;">
 <b>Whānau Time!</b><br>In this example, <em>Volcanos</em>, we learnt about how volcanic eruptions can be unpredictable. <br>Ask your whānau about their experiences with volcanic eruptions. Do you know anyone who has seen a volcano erupting?
 </p>
 <p><br></p>
 </div>
 <div id="blinks" class="section level3">
-<h3 id="blinks">Blinks</h3>
+<h3>Blinks</h3>
 <p>
 Think about someone blinking (kamo).
 </p>
@@ -607,7 +608,7 @@ What kind of distribution do you think will best fit the sample of waiting times
 <p><br></p>
 </div>
 <div id="heights" class="section level3">
-<h3 id="heights">Heights</h3>
+<h3>Heights</h3>
 <center>
 <img src="tall2.jpg" width="75%" style= padding:10px; />
 </center>
@@ -739,22 +740,22 @@ coin = c(&#39;heads: move&#39;, &#39;tails: stay&#39;)
 
 #Randomly sample (i.e., do the coin toss!) for each pile and show the first few outcomes (not all 1000!) along with the overall totals
 leftPile = sample(coin, size = left, replace = TRUE); head(leftPile); table(leftPile)</code></pre>
-<pre><code>## [1] &quot;tails: stay&quot; &quot;heads: move&quot; &quot;heads: move&quot; &quot;tails: stay&quot; &quot;heads: move&quot;
+<pre><code>## [1] &quot;tails: stay&quot; &quot;tails: stay&quot; &quot;tails: stay&quot; &quot;heads: move&quot; &quot;heads: move&quot;
 ## [6] &quot;heads: move&quot;</code></pre>
 <pre><code>## leftPile
 ## heads: move tails: stay 
-##         364         436</code></pre>
+##         408         392</code></pre>
 <pre class="r"><code>rightPile = sample(coin, size = right, replace = TRUE); head(rightPile); table(rightPile)</code></pre>
-<pre><code>## [1] &quot;tails: stay&quot; &quot;heads: move&quot; &quot;tails: stay&quot; &quot;tails: stay&quot; &quot;tails: stay&quot;
+<pre><code>## [1] &quot;heads: move&quot; &quot;heads: move&quot; &quot;tails: stay&quot; &quot;tails: stay&quot; &quot;tails: stay&quot;
 ## [6] &quot;tails: stay&quot;</code></pre>
 <pre><code>## rightPile
 ## heads: move tails: stay 
-##         101          99</code></pre>
+##         109          91</code></pre>
 <pre class="r"><code>#Calculate the new number of molecules on the left and right
 newRight = length(which(leftPile == &quot;heads: move&quot;)) + length(which(rightPile == &quot;tails: stay&quot;)); newRight</code></pre>
-<pre><code>## [1] 463</code></pre>
+<pre><code>## [1] 499</code></pre>
 <pre class="r"><code>newLeft = length(which(leftPile == &quot;tails: stay&quot;)) + length(which(rightPile == &quot;heads: move&quot;)); newLeft</code></pre>
-<pre><code>## [1] 537</code></pre>
+<pre><code>## [1] 501</code></pre>
 <p>Even if both sides have a move/stay ratio of 50:50, more on one side means the exchange will be greater in one direction than the other (more movement from the larger side). <br> <br> Right, there is one more thing to check out! Often, in chemistry, we think of the movement from high concentration to low concentration across a semi-permeable membrane as being a one-step process. What we see if we run the above simulation 100 times, is a fluctuation around 50%. This fluctuation is more volatile for smaller sample sizes (i.e. few molecules overall).</p>
 <table>
 <tr>
