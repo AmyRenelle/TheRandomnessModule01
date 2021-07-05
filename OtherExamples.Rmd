@@ -41,9 +41,7 @@ knitr::include_graphics("cafe3.jpg")
 <p>You obtain the following dot plot of waiting times:</p>
 <br>
 <center>
-```{r, echo=FALSE, out.extra='style= padding:10px;'}
-knitr::include_graphics("coffee.jpg")
-```
+<img src="coffee.jpg" alt="Coffee Waiting Times">
 </center>
 <br>
 <p>How could we represent this data in other ways?</p>
@@ -115,9 +113,7 @@ knitr::include_graphics("wheel2.jpg")
 <p>A man sitting at the roulette table hands you a piece of paper. "Here are the last 30 numbers to come up..."</p>
 
 <center>
-```{r, echo=FALSE, out.extra='style= padding:10px;'}
-knitr::include_graphics("roulette.jpg")
-```
+<img src="roulette.jpg" alt="Roulette Outcomes">
 </center>
 <br>
 <iframe id="interactApp60c303ed7285f10017d1396b" width="800" height="400" style="border:none;max-width:100%;margin:0;" allowTransparency="true" frameborder="0" src="https://quiz.tryinteract.com/#/60c303ed7285f10017d1396b/q/1?method=iframe"></iframe>
@@ -171,7 +167,7 @@ Let's explore some more!
 </body>
 
 <p style="background-image: url('fern.jpg'); ; background-repeat: no-repeat; background-attachment: fixed;
-  background-size: cover; color: white ! important; text-align: center ! important;"><b>Whānau Time!</b><br>In this example, <em>Earthquakes</em>, we learnt about how earthquakes can be unpredictable. <br>Ask your whānau about their experiences with earthquakes. Do you know anyone who experienced the Christchurch earthquake in 2010?</p>
+  background-size: cover; color: white ! important; text-align: center ! important;"><b>Community Time!</b><br>In this example, <em>Earthquakes</em>, we learnt about how earthquakes can be unpredictable. <br>Ask your community about their experiences with earthquakes. Do you know anyone who experienced the Christchurch earthquake in 2010?</p>
   
 <br>
 </div>
@@ -198,9 +194,7 @@ This plot shows the occurrence of volcanic eruptions since 1845 (there have been
 
 <br>
 <center>
-```{r, echo=FALSE, out.extra='style= padding:10px;'}
-knitr::include_graphics("erupt.jpg")
-```
+<img src="erupt.jpg" alt="Eruption Data N.Z.">
 </center>
 <br>
 The average waiting time between eruptions is 15.7 years. 
@@ -233,7 +227,7 @@ Which of the following options depict the waiting times between volcanic eruptio
 </body>
 <br>
 <p style="background-image: url('fern.jpg'); ; background-repeat: no-repeat; background-attachment: fixed;
-  background-size: cover; color: white ! important; text-align: center ! important;"><b>Whānau Time!</b><br>In this example, <em>Volcanos</em>, we learnt about how volcanic eruptions can be unpredictable. <br>Ask your whānau about their experiences with volcanic eruptions. Do you know anyone who has seen a volcano erupting?</p>
+  background-size: cover; color: white ! important; text-align: center ! important;"><b>Community Time!</b><br>In this example, <em>Volcanos</em>, we learnt about how volcanic eruptions can be unpredictable. <br>Ask your community about their experiences with volcanic eruptions. Do you know anyone who has seen a volcano erupting?</p>
 <br>
 </div>
 
@@ -272,9 +266,7 @@ knitr::include_graphics("tall2.jpg")
 In this class, the students are going to draw a random sample of 20 observations relating to heights. Below shows the distribution of heights of 1,000 14-year-old students:</p>
 <br>
 <center>
-```{r, echo=FALSE, out.extra='style= padding:10px;'}
-knitr::include_graphics("heights.jpg")
-```
+<img src="heights.jpg" alt="Distribution of Heights">
 </center>
 <br>
 Which of the following samples best fits your expectation of what a sample of heights might look like?
@@ -282,26 +274,18 @@ Which of the following samples best fits your expectation of what a sample of he
 <table width="100%">
 <tr>
 <td align="left" valign="top" width="30%" padding=10px>
-```{r, echo=FALSE, out.extra='style= padding:10px;'}
-knitr::include_graphics("sample1.jpg")
-```
+<img src="sample1.jpg" alt="Sample 1">
 </td>
 <td align="left" valign="top" width="30%" padding=10px>
-```{r, echo=FALSE, out.extra='style= padding:10px;'}
-knitr::include_graphics("sample2.jpg")
-```
+<img src="sample2.jpg" alt="Sample 2">
 </td>
 </tr>
 <tr>
 <td align="left" valign="top" width="30%">
-```{r, echo=FALSE, out.extra='style= padding:10px;'}
-knitr::include_graphics("sample3.jpg")
-```
+<img src="sample3.jpg" alt="Sample 3">
 </td>
 <td align="left" valign="top" width="30%">
-```{r, echo=FALSE, out.extra='style= padding:10px;'}
-knitr::include_graphics("sample4.jpg")
-```
+<img src="sample4.jpg" alt="Sample 4">
 </td>
 </tr>
 </table>

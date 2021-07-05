@@ -8,7 +8,7 @@ title: "Defining Randomness"
 
 ::: {}
 ```{r, echo=FALSE, out.extra='style= padding:10px;'}
-knitr::include_graphics("books2.jpg")
+#knitr::include_graphics("books2.jpg")
 ```
 :::
 
@@ -40,7 +40,7 @@ This section looks into some of the tricky bits of defining randomness.
 There are two definitions in particular that can lead to a narrow view of randomness - the no-pattern definition and the equiprobability definition.
 
 <p style="background-image: url('fern.jpg'); ; background-repeat: no-repeat; background-attachment: fixed;
-  background-size: cover; color: white ! important; text-align: center ! important;"><b>Whānau Time!</b><br>In this section, <em>Defining Randomness</em>, we are learning about how randomness is talked about.<br>Ask your whānau about how they would define randomness, how randomness comes into stories (like the examples of legends and stories on the <em>Home</em> page), and the language used to talk about random events.</p>
+  background-size: cover; color: white ! important; text-align: center ! important;"><b>Community Time!</b><br>In this section, <em>Defining Randomness</em>, we are learning about how randomness is talked about.<br>Ask your community about how they would define randomness, how randomness comes into stories (like the examples of legends and stories on the <em>Home</em> page), and the language used to talk about random events.</p>
 <br>
 
 ### The No-Pattern Definition
