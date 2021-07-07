@@ -41,7 +41,7 @@ The connection between random phenomena and structured distributions appears to 
 <p>See some discussion examples on <a href = https://vimeo.com/557055087 target = "_blank">rainfall</a> (uanga) and <a href = https://vimeo.com/555572366 target = "_blank">glow-worms</a> (pūrātoke)!</p>
 
 <p style="background-image: url('fern.jpg'); ; background-repeat: no-repeat; background-attachment: fixed;
-  background-size: cover; color: white ! important; text-align: center ! important;"><b>Whānau Time!</b><br>In this sub-section, <em>Spatial Randomness</em>, we are learning about how randomness can be seen over an area.<br>Ask your whānau about their experiences with seeing random phenomenon, like rainfall and glow-worms, and any stories relating to this.</p>
+  background-size: cover; color: white ! important; text-align: center ! important;"><b>Community Time!</b><br>In this sub-section, <em>Spatial Randomness</em>, we are learning about how randomness can be seen over an area.<br>Ask your community about their experiences with seeing random phenomenon, like rainfall and glow-worms, and any stories relating to this.</p>
 
 <br>
 
@@ -227,7 +227,7 @@ fig
 See some <a href = https://vimeo.com/557055270 target = "_blank">examples</a> on the randomness of tweets!
 
 <p style="background-image: url('fern.jpg'); ; background-repeat: no-repeat; background-attachment: fixed;
-  background-size: cover; color: white ! important; text-align: center ! important;"><b>Whānau Time!</b><br>In this sub-section, <em>Waiting Times</em>, we are learning about how randomness can be seen over time. The context here will reference Twitter, but there are many examples of random waiting times.<br>Ask your whānau about their experiences and stories about random times between events, like out fishing, natural disasters, and weather patterns.</p>
+  background-size: cover; color: white ! important; text-align: center ! important;"><b>Community Time!</b><br>In this sub-section, <em>Waiting Times</em>, we are learning about how randomness can be seen over time. The context here will reference Twitter, but there are many examples of random waiting times.<br>Ask your community about their experiences and stories about random times between events, like out fishing, natural disasters, and weather patterns.</p>
 
 <br>
 
